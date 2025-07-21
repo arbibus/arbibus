@@ -1,61 +1,98 @@
 <!DOCTYPE html>
-<head>
-<h1>MMDM </h1>
-<h3> Maja Marta Dymfna Młynarczyk </h3>
-  <body> 
-
-<h2>Moje dzieła</h2>
-<ul>
-  <li>Szycie</li>
-  <li>Linoryt</li>
-  <li> Fotografia </li>
- <li> Kolaż  </li>
-  
-</ul>
-
-<h2>Linki</h2>
-<p><a href="https://www.instagram.com/arbibus_?igsh=M3dnaW5ocnQ4Mjln "
-    target="_blank">Mój instagram</a></p>
-
-<h2>Moje prace</h2>
-<img src="moj_obraz1.jpg" alt="Ilustracja fantasy">
-<img src="moj_obraz2.jpg" alt="Pastelowy pejzaż">
-
-    </body>
-</html>
-
-<!DOCTYPE html>
 <html lang="pl">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MMDM – Portfolio</title>
   <style>
-  
-</head>
-<body>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fdfcf9;
+      color: #333;
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
 
+    h1 {
+      font-size: 3rem;
+      color: #6a1b9a;
+      text-align: center;
+      margin-bottom: 0;
+    }
+
+    h3 {
+      text-align: center;
+      margin-top: 0.5rem;
+      color: #9c27b0;
+    }
+
+    h2 {
+      color: #6a1b9a;
+      margin-top: 2rem;
+    }
+
+    ul {
+      list-style-type: square;
+      padding-left: 1.5rem;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+
+    .gallery img {
+      width: 100%;
+      max-width: 250px;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    a {
+      color: #6a1b9a;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      margin-top: 3rem;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>  
   <h1>MMDM</h1>
   <h3>Maja Marta Dymfna Młynarczyk</h3>
 
-  <div class="gallery">
-    <img src="zdjecie1.jpg" alt="Moje dzieło 1">
-    <img src="zdjecie2.jpg" alt="Moje dzieło 2">
-    <img src="zdjecie3.jpg" alt="Moje dzieło 3">
-  </div>
-
   <h2>Moje dzieła</h2>
   <ul>
+    <li>Szycie</li>
     <li>Linoryt</li>
     <li>Fotografia</li>
-    <li>Rysunek</li>
-    <li>Cyfrowe kolaże</li>
-    <li>Instalacje</li>
+    <li>Kolaż</li>
   </ul>
 
-  <footer>
-    <p>Znajdziesz mnie na <a href="https://www.instagram.com/twojanazwa" target="_blank">Instagramie</a></p>
-  </footer>
+  <h2>Moje prace</h2>
+  <div class="gallery">
+    <img src="moj_obraz1.jpg" alt="Ilustracja fantasy">
+    <img src="moj_obraz2.jpg" alt="Pastelowy pejzaż">
+    <img src="moj_obraz3.jpg" alt="Trzecie dzieło">
+  </div>
 
+  <h2>Linki</h2>
+  <p><a href="https://www.instagram.com/arbibus_/" target="_blank">Mój Instagram: @arbibus_</a></p>
+
+  <footer>
+    <p>© MMDM 2025</p>
+  </footer>
 </body>
 </html>

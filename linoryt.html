@@ -37,18 +37,14 @@
       padding-left: 1.5rem;
     }
 
-   
-    .gallery {
-      flex-wrap: wrap;
-      gap: 1rem;
-      margin-top: 1rem;
-    }
-
     .gallery img {
-      width: 100%;
+      display: block;
+      margin: 1rem auto;
       max-width: 300px;
+      width: 100%;
       height: auto;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      border-radius: 0;
+      box-shadow: none;
     }
 
     a {
@@ -69,20 +65,15 @@
   </style>
 </head>
 
-
 <body>
   <h1>Linoryt</h1>
- <div class="gallery">
-   
-   <img src="images/babuszka.jpeg" alt="Babuszka">
-   <img src="images/weztonadroge.jpeg" alt="Weź to na drogę">
-  <img src="images/przyjaciel.jpeg" alt="Przyjaciele"> 
-  
-   
-</div>
+
+  <div class="gallery">
+    <img src="images/babuszka.jpeg" alt="Babuszka">
+    <img src="images/weztonadroge.jpeg" alt="Weź to na drogę">
+    <img src="images/przyjaciel.jpeg" alt="Przyjaciele">
+  </div>
 
   <p><a href="index.html">← Powrót do strony głównej</a></p>
 </body>
 </html>
-
-

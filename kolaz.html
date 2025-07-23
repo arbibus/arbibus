@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pl">
 <head>
@@ -22,39 +21,21 @@
       margin-bottom: 0;
     }
 
-    h3 {
-      text-align: center;
-      margin-top: 0.5rem;
-      color: #4b5c48;
-    }
-
-    h2 {
-      color: #4b5c48;
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
       margin-top: 2rem;
     }
 
-    ul {
-      list-style-type: square;
-      padding-left: 1.5rem;
+    .gallery img {
+      width: 100%;
+      max-width: 200px;
+      height: auto;
+      border-radius: 0;
+      box-shadow: none;
     }
-
-  .gallery {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  margin-top: 1rem;
-  justify-content: center;
-}
-
-  
-.gallery img {
-  width: 100%;
-  max-width: 300px;
-  height: auto;
-  border-radius: 0;
-  box-shadow: none;
-}
-
 
     a {
       color: #4b5c48;
@@ -74,29 +55,23 @@
   </style>
 </head>
 
-
 <body>
-  <h1>Kolaż</h1
-             
+  <h1>Kolaż</h1>
+
   <div class="gallery">
-    
     <img src="images/walckosmiczny.jpeg" alt="Walc kosmiczny">
     <img src="images/matka.jpeg" alt="Matka">
     <img src="images/lokalnypan.jpeg" alt="Lokalny Pan">
-   <img src="images/pieknokonikow.jpeg" alt="Piękno koników">
+    <img src="images/pieknokonikow.jpeg" alt="Piękno koników">
     <img src="images/przybysz.jpeg" alt="Przybysz">
     <img src="images/oknonaswiat.jpeg" alt="Okno na świat">
     <img src="images/kran.jpeg" alt="Trasa">
     <img src="images/oczy.jpeg" alt="Pająk">
-     <img src="images/skok.jpeg" alt="Skok kwantowy">
+    <img src="images/skok.jpeg" alt="Skok kwantowy">
     <img src="images/wnetrze.jpeg" alt="Liczy się wnętrze">
-     <img src="images/zakladka1.jpeg" alt="Zakładka pęd">
-    
+    <img src="images/zakladka1.jpeg" alt="Zakładka pęd">
   </div>
 
-
-
-  
-  <p><a href="index.html">← Powrót do strony głównej</a></p>
+  <p style="text-align: center;"><a href="index.html">← Powrót do strony głównej</a></p>
 </body>
 </html>
